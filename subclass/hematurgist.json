@@ -1,0 +1,233 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "hematurgist",
+				"abbreviation": "bshematurgist",
+				"full": "Hematurgist",
+				"authors": [
+					"bashful-strix"
+				],
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"version": "0.1",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 1671562401
+	},
+	"subclass": [
+		{
+			"name": "Hematurgist",
+			"subclassFeatures": [
+				"Hematurgist|Artificer|TCE|Hematurgist|hematurgist|3",
+				"Sanguine Infusions|Artificer|TCE|Hematurgist|hematurgist|5",
+				"Channel Essence|Artificer|TCE|Hematurgist|hematurgist|9",
+				"Open Heart|Artificer|TCE|Hematurgist|hematurgist|15"
+			],
+			"source": "hematurgist",
+			"shortName": "Hematurgist",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"bless",
+							"inflict wounds"
+						],
+						"5": [
+							"hold person",
+							"warding bond"
+						],
+						"9": [
+							"dispel magic",
+							"slow"
+						],
+						"13": [
+							"blight",
+							"death ward"
+						],
+						"17": [
+							"dominate person",
+							"greater restoration"
+						]
+					}
+				}
+			],
+			"sublassSpells": [
+				"bless",
+				"inflict wounds",
+				"hold person",
+				"warding bond",
+				"dispel magic",
+				"slow",
+				"blight",
+				"death ward",
+				"dominate person",
+				"greater restoration"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Hematurgist Spells",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Hematurgist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Hematurgist Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell bless}, {@spell inflict wounds}"
+						],
+						[
+							"5rd",
+							"{@spell hold person}, {@spell warding bond}"
+						],
+						[
+							"9rd",
+							"{@spell dispel magic}, {@spell slow}"
+						],
+						[
+							"13rd",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"17rd",
+							"{@spell dominate person}, {@spell greater restoration"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 3,
+			"entries": [
+				"When you adopt this specialisation at 3rd level, you gain proficiency with {@item alchemist's supplies}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools} of your choice."
+			]
+		},
+		{
+			"name": "Heart and Soul",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you have learned how to weave part of your essence into your infusions using your blood as a medium. Those wielding your infusions gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever a creature makes an attack roll with an item you have infused, it may use your Intelligence modifier instead of it's Strength or Dexterity for the attack and damage rolls.",
+						"Whenever a creature uses an item you have infused to force a creature to make a saving throw, it may use spell save DC instead.",
+						"As a bonus action, you or a creature in possession of one of your infused items may end the infusion on one such item. The creature possessing the item bearing the infusion ended this way may expend a number of hit dice less than or equal to your Intelligence modifier (minimum of 1). For each hit die expended this way, that creature regains hit points equal to the roll plus their Constitution modifier (minimum of one hit point)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sanguine Infusions",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you have learned how to manipulate your blood to recreate the effects of your infusions.",
+				{
+					"type": "list",
+					"items": [
+						"If an infusion could be applied to an article of clothing or armour, you may apply it to your own body instead. You may more than one infusion this way, up to a maximum less then or equal to your Constitution modifier (minimum 1).",
+						"Additionally, you may choose to infuse an additional number of items, up to your Constitution modifier. Your hit point maximum is reduced by 5 for each extra infusion, which can only be restored when the infusion is ended."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Essence",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, you have learned how to channel power from your blood in order to recover some of your magical essence. As an action, you can recover a number of spell slots equal to or less than half your artificer level. For each slot regained this way, you take 1d8 damage, which cannot be reduced in any way. Once you have used this feature, you cannot do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Open Heart",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, your body has adapted to your manipulations and magical resonance, improving your resiliency and blood-bonded infusions.",
+				{
+					"type": "list",
+					"items": [
+						"While you are conscious, you gain a bonus to saving throws equal to you number of infusions applied to your body Sanguine Infusions.",
+						"Additionally, whenever a creature rolls one or more hit dice as a result of ending one of your infusions, they gain a bonus to the total equal to your Intelligence modifier (minimum 1) for each hit dice rolled."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hematurgist",
+			"source": "hematurgist",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Hematurgist",
+			"subclassSource": "hematurgist",
+			"level": 3,
+			"entries": [
+				"Most artificers prefer to work with more concrete materials, but you have a fascination with the properties of blood. Perhaps you accidentally spilled your blood into a bar of metal you were shaping, or perhaps you have always been interested in the power and essence of blood. Either way, you have been practicing integrating your blood into the magical folds of your crafting and exploring the results.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Hematurgist|hematurgist|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hematurgist Spells|Artificer|TCE|Hematurgist|hematurgist|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Heart and Soul|Artificer|TCE|Hematurgist|hematurgist|3"
+				}
+			]
+		}
+	]
+}
