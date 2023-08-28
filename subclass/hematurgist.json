@@ -229,5 +229,130 @@
 				}
 			]
 		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Dermal Reinforcement",
+			"source": "hematurgist",
+			"page": 1,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 6,
+						"subclass": {
+							"name": "Hematurgist",
+							"source": "hematurgist",
+							"visible": true
+						}
+					},
+					"item": [
+						"Your body"
+					]
+				}
+			],
+			"entries": [
+				"By infusing the iron in your blood, you can harden your skin to provide improved defenses. While you are wearing no armour, your AC equals 10 + your Constitution modifier + your Intelligence modifier."
+			]
+		},
+		{
+			"name": "Metabolic Enhancement",
+			"source": "hematurgist",
+			"page": 1,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 6,
+						"subclass": {
+							"name": "Hematurgist",
+							"source": "hematurgist",
+							"visible": true
+						}
+					},
+					"item": [
+						"Your body"
+					]
+				}
+			],
+			"entries": [
+				"Whenever you finish a long rest, you recover an additional number of hit dice, equal to your Constitution modifier.",
+				"When you reach 15th level in this class, you recover an additional number of hit dice, equal to your Constitution modifier + you Intelligence modifier, instead."
+			]
+		},
+		{
+			"name": "Quickening",
+			"source": "hematurgist",
+			"page": 1,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 6,
+						"subclass": {
+							"name": "Hematurgist",
+							"source": "hematurgist",
+							"visible": true
+						}
+					},
+					"item": [
+						"Your body"
+					]
+				}
+			],
+			"entries": [
+				"You push your muscles to their limits by reinforcing them with magic.",
+				"You can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Refractive Capillaries",
+			"source": "hematurgist",
+			"page": 1,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 6,
+						"subclass": {
+							"name": "Hematurgist",
+							"source": "hematurgist",
+							"visible": true
+						}
+					},
+					"item": [
+						"Your body"
+					]
+				}
+			],
+			"entries": [
+				"You manipulate your blood vessels to refract light, making you invisible.",
+				"You may use an action to cast {@spell invisibility} on yourself only. Once you have used this ability, you cannot do so again until you finish a long rest, unless you expend a hit die to do so."
+			]
+		}
 	]
 }
